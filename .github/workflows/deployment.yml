@@ -30,7 +30,7 @@ jobs:
           # IP Address or DNS of your target host
           host: 46.243.201.213
           # Destination route folder
-          destination: /var/www/lct/
+          destination: "/var/www/lct/"
           # Private SSH key
           key: ${{ secrets.SSH_KEY }}
       
