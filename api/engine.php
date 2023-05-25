@@ -26,6 +26,7 @@ function throw_401_error() {
  */
 function throw_404_error() {
     header("HTTP/1.1 404 Not Found");
+    echo "asd";
     response(JSON, json_encode(['error' => 'Not found']));
 }
 
