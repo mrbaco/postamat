@@ -1,13 +1,13 @@
 <?php
 
-if (!defined(ROOT)) exit;
+if (!defined("ROOT")) exit;
 
 /**
  * Настройки подключения к базе данных
  */
 define("DB_NAME", "hackathon");
-define("DB_USER", "lct");
-define("DB_PASSWORD", "PHsVi3E3t+Nj");
+define("DB_USER", "root");
+define("DB_PASSWORD", "");
 define("DB_HOST", "localhost");
 
 /**

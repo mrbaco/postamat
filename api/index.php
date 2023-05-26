@@ -6,8 +6,7 @@ include ROOT . "/config.php";
 include ROOT . "/engine.php";
 
 // Получить запрошенный путь на сервере
-$path = trim(explode("?", $_SERVER['REQUEST_URI'])[0], "/");
-$path = explode($path, "/");
+$path = explode("/", trim($_GET['path'], "/"));
 
 // Получить название ручки и параметр из пути, определить параметры запроса
 $handler = $path[0];

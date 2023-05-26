@@ -1,5 +1,5 @@
 <?php
 
-if (!defined(ROOT)) exit;
+if (!defined("ROOT")) exit;
 
 ?>

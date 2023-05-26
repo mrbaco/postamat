@@ -1,6 +1,6 @@
 <?php
 
-if (!defined(ROOT)) exit;
+if (!defined("ROOT")) exit;
 
 define("JSON", "application/json");
 define("PNG", "image/png");
@@ -26,7 +26,6 @@ function throw_401_error() {
  */
 function throw_404_error() {
     header("HTTP/1.1 404 Not Found");
-    echo "asd";
     response(JSON, json_encode(['error' => 'Not found']));
 }
 
